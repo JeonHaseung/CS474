@@ -27,13 +27,13 @@ for y in years:
                 d[word] = d[word] + 1
             else:
                 d[word] = 1
-        
+        """
         for word in word_in_content:
             if word in d:
                 d[word] = d[word] + 1
             else:
                 d[word] = 1
-        
+        """
     result = sorted(d.items(), key=(lambda x: x[1]))
     result.reverse()
     print(y)
